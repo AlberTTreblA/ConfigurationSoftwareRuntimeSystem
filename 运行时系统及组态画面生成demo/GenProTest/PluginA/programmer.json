@@ -1,0 +1,9 @@
+{
+    "author" : "qht",
+    "date" : "2019/05/20",
+    "name" : "pluginA",
+    "version" : "1.0.0",
+    "type" : "-1",
+    "des" : "这是一个插件A，为水泵画面",
+    "dependencies" : []
+}

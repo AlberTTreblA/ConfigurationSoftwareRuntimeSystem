@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>861</x>
+     <y>1246</y>
+     <width>296</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加载</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAddMaster">
+   <property name="geometry">
+    <rect>
+     <x>382</x>
+     <y>100</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加master</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnStartPump">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>40</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开启水泵</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M1">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>水泵液面高度: 0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnConnectToMaster">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>100</y>
+     <width>111</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>连接到master</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_masters">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>200</y>
+     <width>261</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M3_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>160</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>已添加的master信息</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>汽轮机转速: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M3">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发电机温度: 0</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="pump" native="true">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>230</y>
+     <width>141</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_pump">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>4</y>
+      <width>71</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnResetWaterHeight">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>液面高度置0</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

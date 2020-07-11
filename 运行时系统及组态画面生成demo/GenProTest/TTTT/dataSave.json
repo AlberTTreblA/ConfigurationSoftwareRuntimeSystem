@@ -1,0 +1,15 @@
+{
+    "pump" : {
+        "devid" : "1",
+        "height" : "0_",
+        "temperature" : "1_",
+        "period" : "1000"
+    },
+
+    "turbine" : {
+        "devid" : "1",
+        "rotation" : "2_",
+        "power" : "3_",
+        "period" : "2000"
+    }
+}

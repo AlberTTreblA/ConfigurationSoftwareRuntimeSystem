@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1919</width>
+    <height>978</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="water_subwidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>-1</y>
+      <width>54</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>42</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> 水泵：</string>
+    </property>
+   </widget>
+   <widget class="waterpump_painter" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>36</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> 状态：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启动</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>0</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>停止</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="turbine_subwidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>190</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>-1</y>
+      <width>54</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+border-image:url(:/new/prefix1/zhengqiji.png);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../guandaotrue.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>42</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>汽轮机：</string>
+    </property>
+   </widget>
+   <widget class="tur_painter" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>36</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> 状态：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启动</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>0</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>停止</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="gen_subwidget" name="widget_7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>190</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>-1</y>
+      <width>54</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>42</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>发电机：</string>
+    </property>
+   </widget>
+   <widget class="gen_painter" name="widget_8" native="true">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>36</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> 状态：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启动</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>0</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>停止</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_9" native="true">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>151</width>
+     <height>119</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>液高：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>水泵：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="text">
+       <string>reset</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>功耗：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="text">
+       <string>quit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>140</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>140</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_10" native="true">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>140</y>
+     <width>151</width>
+     <height>119</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_20">
+      <property name="text">
+       <string>发电机：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_21">
+      <property name="text">
+       <string>功率：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_22">
+      <property name="text">
+       <string>温度：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="text">
+       <string>reset</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="text">
+       <string>quit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_11" native="true">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>140</y>
+     <width>151</width>
+     <height>119</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_23">
+      <property name="text">
+       <string>汽轮机：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_24">
+      <property name="text">
+       <string>转速：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_25">
+      <property name="text">
+       <string>压力：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_7"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="text">
+       <string>reset</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="text">
+       <string>quit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="CurveChart" name="widget_chart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>450</y>
+     <width>581</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAddData">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加载数据</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckShowPoint">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>740</y>
+     <width>102</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示坐标点</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClearData">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空数据</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckShowHLine">
+   <property name="geometry">
+    <rect>
+     <x>187</x>
+     <y>740</y>
+     <width>87</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示横线</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckShowPointBg">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>740</y>
+     <width>132</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示坐标点背景</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="RoundPlot" name="widget_roundplot" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1019</x>
+     <y>100</y>
+     <width>371</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>370</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="2">
+     <widget class="QLabel" name="labMaxValue">
+      <property name="text">
+       <string>最大值</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="txtMaxValue">
+      <property name="text">
+       <string>100</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="txtMinValue">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="labUnit">
+      <property name="text">
+       <string>单位</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="txtUnit">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="labMinValue">
+      <property name="text">
+       <string>最小值</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>861</x>
+     <y>1246</y>
+     <width>296</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加载</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLoadRoundplotData">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>430</y>
+     <width>181</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加载水泵液面高度</string>
+   </property>
+  </widget>
+  <widget class="LedNumber" name="widget_lednumber1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>520</y>
+     <width>181</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="LedNumber" name="widget_lednumber2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1320</x>
+     <y>520</y>
+     <width>181</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLednumber">
+   <property name="geometry">
+    <rect>
+     <x>1230</x>
+     <y>780</y>
+     <width>171</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>跟踪水泵液面高度</string>
+   </property>
+  </widget>
+  <widget class="BarRuler" name="widget_barruler2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>480</y>
+     <width>111</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="shortStep" stdset="0">
+    <number>2</number>
+   </property>
+   <property name="animation" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="barColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>107</green>
+     <blue>107</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="BarRuler" name="widget_barruler1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>480</y>
+     <width>111</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="shortStep" stdset="0">
+    <number>2</number>
+   </property>
+   <property name="animation" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="BarRuler" name="widget_barruler3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>480</y>
+     <width>111</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="shortStep" stdset="0">
+    <number>2</number>
+   </property>
+   <property name="animation" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="animationStep" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="barColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="lineColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBarruler">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>820</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>跟踪水泵液面高度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSwitchValue">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开关变量值：0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSwitch">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>40</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开开关</string>
+   </property>
+  </widget>
+  <widget class="HLed" name="alarmLight" native="true">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>60</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>水泵液高报警灯</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_setAlarmH">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_alrmH">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>110</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前报警液高：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSetAlarmHeight">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置报警液高</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUnsetAlarmHeight">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAddControllers">
+   <property name="geometry">
+    <rect>
+     <x>1472</x>
+     <y>100</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加控制器</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnM1">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>40</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M1">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>M点1的值: 0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnM2">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>40</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M2">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>M点2的值: 2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M3">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>140</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>M点3的值: 4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnM3">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>170</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnConnectAndSend">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>100</y>
+     <width>181</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>连接到控制器并发送数据</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_controllers">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>200</y>
+     <width>261</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_M3_2">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>160</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>已添加的控制器信息</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>HLed</class>
+   <extends>QWidget</extends>
+   <header>hled.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CurveChart</class>
+   <extends>QWidget</extends>
+   <header>curvechart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>waterpump_painter</class>
+   <extends>QWidget</extends>
+   <header>waterpump_painter.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>water_subwidget</class>
+   <extends>QWidget</extends>
+   <header>water_subwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>gen_subwidget</class>
+   <extends>QWidget</extends>
+   <header location="global">gen_subwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>gen_painter</class>
+   <extends>QWidget</extends>
+   <header>gen_painter.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>turbine_subwidget</class>
+   <extends>QWidget</extends>
+   <header>turbine_subwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>tur_painter</class>
+   <extends>QWidget</extends>
+   <header>tur_painter.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RoundPlot</class>
+   <extends>QWidget</extends>
+   <header>roundplot.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LedNumber</class>
+   <extends>QWidget</extends>
+   <header>lednumber.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BarRuler</class>
+   <extends>QWidget</extends>
+   <header>barruler.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
